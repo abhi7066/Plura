@@ -50,7 +50,6 @@ import {
 import { Button } from '../ui/button'
 import Loading from '../global/loading'
 
-
 type Props = {
   data?: Partial<Agency>
 }
@@ -159,7 +158,7 @@ const AgencyDetails = ({ data }: Props) => {
         })
         
         return router.refresh()
-      }
+      } 
     } catch (error) {
       console.log(error)
       toast({
