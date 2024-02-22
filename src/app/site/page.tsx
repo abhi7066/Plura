@@ -108,7 +108,7 @@ export default async function Home() {
               </CardFooter>
             </Card>
           ))}
-          <Card className={clsx('w-[300px] flex flex-col justify-between')}>
+          {/* <Card className={clsx('w-[300px] flex flex-col justify-between')}>
             <CardHeader>
               <CardTitle
                 className={clsx({
@@ -149,7 +149,7 @@ export default async function Home() {
                 Get Started
               </Link>
             </CardFooter>
-          </Card>
+          </Card> */}
         </div>
       </section>
     </>
